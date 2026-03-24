@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Noe Valley Town Council Seal</title>
+  <desc id="desc">Decorative circular council seal with neighborhood motifs.</desc>
+  <defs>
+    <radialGradient id="sealBg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f8f4ec" />
+      <stop offset="100%" stop-color="#e5d8c4" />
+    </radialGradient>
+  </defs>
+  <circle cx="90" cy="90" r="84" fill="url(#sealBg)" stroke="#7c6248" stroke-width="4" />
+  <circle cx="90" cy="90" r="64" fill="none" stroke="#9a7c5f" stroke-width="2" stroke-dasharray="3 4" />
+  <path d="M46 104c18-24 70-24 88 0" fill="none" stroke="#5e4a36" stroke-width="4" stroke-linecap="round" />
+  <rect x="72" y="74" width="36" height="24" rx="4" fill="#9f7f60" />
+  <path d="M72 74l18-12 18 12" fill="#d9c2a7" stroke="#7c6248" stroke-width="2" />
+  <circle cx="90" cy="90" r="5" fill="#f8f4ec" />
+  <text x="90" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#4c3f31" letter-spacing="1.5">
+    NOE VALLEY
+  </text>
+  <text x="90" y="152" text-anchor="middle" font-family="Georgia, serif" font-size="8" fill="#4c3f31" letter-spacing="1.5">
+    TOWN COUNCIL
+  </text>
+</svg>
