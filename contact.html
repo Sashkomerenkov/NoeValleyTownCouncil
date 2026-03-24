@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | Noe Valley Town Council</title>
+    <meta
+      name="description"
+      content="Contact the Noe Valley Town Council to submit a concern, request review, or ask for a ceremonial hearing."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/content.js"></script>
+    <script defer src="js/site.js"></script>
+  </head>
+  <body data-page="contact">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-component="header"></div>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container page-head reveal">
+          <p class="hero-ribbon">Public Correspondence</p>
+          <h1>Contact Council</h1>
+          <p>
+            For project inquiries, concern submissions, and requests for advisory review,
+            please use the form below. All entries are examined by the appropriate committee.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container dual-grid">
+          <article class="contact-card reveal">
+            <h2>Submit a Concern</h2>
+            <form id="contact-form" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="first-name">First Name <span aria-hidden="true">*</span></label>
+                  <input id="first-name" name="first-name" type="text" autocomplete="given-name" required />
+                </div>
+                <div class="field">
+                  <label for="last-name">Last Name <span aria-hidden="true">*</span></label>
+                  <input id="last-name" name="last-name" type="text" autocomplete="family-name" required />
+                </div>
+
+                <div class="field field-wide">
+                  <label for="email">Email <span aria-hidden="true">*</span></label>
+                  <input id="email" name="email" type="email" autocomplete="email" required />
+                </div>
+
+                <div class="field field-wide">
+                  <label for="committee">Requested Committee</label>
+                  <select id="committee" name="committee">
+                    <option value="general">General Intake</option>
+                    <option value="sidewalk">Sidewalk Etiquette</option>
+                    <option value="dog">Dog Ownership Aesthetics</option>
+                    <option value="architecture">Architectural Review</option>
+                    <option value="parking">Parking Grievance Protocol</option>
+                  </select>
+                </div>
+
+                <div class="field field-wide">
+                  <label for="subject">Subject <span aria-hidden="true">*</span></label>
+                  <input id="subject" name="subject" type="text" required />
+                </div>
+
+                <div class="field field-wide">
+                  <label for="message">Message <span aria-hidden="true">*</span></label>
+                  <textarea id="message" name="message" required></textarea>
+                </div>
+              </div>
+
+              <div class="cta-row">
+                <button class="button button-primary" type="submit">Submit</button>
+              </div>
+              <p id="contact-status" aria-live="polite"></p>
+            </form>
+          </article>
+
+          <aside class="stack">
+            <article class="callout reveal" style="animation-delay: 120ms">
+              <h2>Other Contact Channels</h2>
+              <p><strong>Email:</strong> clerk@noevalleytowncouncil.org</p>
+              <p><strong>Hotline:</strong> (415) 555-0124</p>
+              <p><strong>Mail Slot:</strong> 24th Street Community Board, Box NVTC-7</p>
+            </article>
+
+            <article class="callout reveal" style="animation-delay: 180ms">
+              <h2>Review Timeline</h2>
+              <p>
+                Submissions are currently under review by the Intake Committee.
+                Standard response window is 3 to 5 civic business days, not including fog advisories.
+              </p>
+            </article>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <div data-component="footer"></div>
+  </body>
+</html>
