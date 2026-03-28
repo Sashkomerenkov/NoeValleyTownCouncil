@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" role="img" aria-labelledby="title desc">
+  <title id="title">Noe Valley Streetscape Illustration</title>
+  <desc id="desc">Stylized Noe Valley hillside homes and streets in brown and tan tones.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9d0c7" />
+      <stop offset="100%" stop-color="#cbbcae" />
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b7a599" />
+      <stop offset="100%" stop-color="#a69286" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="700" fill="url(#sky)" />
+  <path d="M0 420c220-90 460-100 650-35 180 63 325 70 530 10 120-35 260-36 420 6V700H0z" fill="url(#hill)" />
+
+  <g fill="#8c745e" opacity="0.9">
+    <rect x="110" y="350" width="165" height="170" rx="4" />
+    <rect x="305" y="330" width="210" height="190" rx="4" />
+    <rect x="555" y="360" width="170" height="160" rx="4" />
+    <rect x="760" y="320" width="220" height="200" rx="4" />
+    <rect x="1020" y="345" width="180" height="175" rx="4" />
+    <rect x="1230" y="335" width="240" height="185" rx="4" />
+  </g>
+
+  <g fill="#d9d0c7" opacity="0.92">
+    <rect x="145" y="395" width="34" height="50" />
+    <rect x="190" y="395" width="34" height="50" />
+    <rect x="350" y="375" width="38" height="55" />
+    <rect x="397" y="375" width="38" height="55" />
+    <rect x="444" y="375" width="38" height="55" />
+    <rect x="595" y="402" width="34" height="48" />
+    <rect x="638" y="402" width="34" height="48" />
+    <rect x="810" y="370" width="36" height="56" />
+    <rect x="856" y="370" width="36" height="56" />
+    <rect x="902" y="370" width="36" height="56" />
+    <rect x="1060" y="395" width="34" height="50" />
+    <rect x="1105" y="395" width="34" height="50" />
+    <rect x="1280" y="386" width="36" height="52" />
+    <rect x="1328" y="386" width="36" height="52" />
+    <rect x="1376" y="386" width="36" height="52" />
+  </g>
+
+  <g stroke="#8c745e" stroke-width="10" stroke-linecap="round" opacity="0.6">
+    <path d="M0 560h1600" />
+    <path d="M0 598h1600" />
+  </g>
+</svg>

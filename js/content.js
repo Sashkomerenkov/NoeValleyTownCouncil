@@ -2,7 +2,8 @@ window.NVTC_CONTENT = {
   site: {
     name: "Noe Valley Town Council",
     tagline: "The unofficial civic authority on neighborhood dignity and minor inconvenience.",
-    email: "clerk@noevalleytowncouncil.org",
+    email: "towncouncilnoevalley@gmail.com",
+    phone: "(415) 494-7160",
     social: {
       instagram: "https://www.instagram.com/",
       x: "https://x.com/"
@@ -10,241 +11,82 @@ window.NVTC_CONTENT = {
   },
   resolutions: [
     {
-      id: "resolution-stroller-width",
-      code: "Resolution 26-01",
-      title: "Resolution on Excessive Stroller Width",
-      date: "2026-03-10",
+      id: "resolution-1-2025",
+      code: "Resolution No. 1 (2025)",
+      title: "On the Secession of Noe Valley from San Francisco and Petition for Annexation to Marin County",
+      date: "2025-05-01",
       status: "Adopted",
       excerpt:
-        "Establishes a voluntary but deeply judged maximum stroller beam width for peak weekend corridors on 24th Street.",
+        "Declares the Bay Wheels outage an intolerable civic affront and warns that continued delay may trigger legal and spiritual secession efforts.",
       body: [
-        "Whereas sidewalk travel in Noe Valley now includes strollers equipped with cup holders, shock absorbers, and wheelbases comparable to compact agricultural equipment, the Council finds it necessary to establish standards of passage.",
-        "The Council recommends a maximum operational width of 31 inches on Saturdays between 10:00 AM and 2:00 PM. Households exceeding this width are requested to use alternate routes, issue advance notice, and avoid diagonal parking in front of bakeries.",
-        "This measure is educational in nature, enforceable only through prolonged eye contact, and subject to annual review by the Sidewalk Etiquette and Rotational Yield Committee."
+        "We, the undersigned residents of Noe Valley, do hereby declare that the removal and ongoing absence of the Castro and Jersey Bay Wheels station constitutes an intolerable affront to our neighborhood, our lifestyle, and our right to seamless micro mobility.",
+        "Whereas: the residents of Noe Valley are the top of the crop of San Francisco, contributing charm, stability, and artisanal baked goods to the city's cultural fabric; and whereas the prolonged outage of the Bay Wheels station has forced countless delays, overcooked casseroles, and immeasurable emotional strain upon our households, dogs, and artisanal bread; and whereas entitled car drivers continue to block docks without consequence while cyclists and e-bike users are left stranded.",
+        "Therefore: we demand the immediate restoration of the Castro and Jersey station, or its relocation to a suitable site (such as in front of Walgreens) while roadwork is underway (no more construction, just stop, it has been enough this century). We further demand that the City enforce strict towing and citation of motorists who obstruct Noe Valley's micro mobility infrastructure.",
+        "And finally, we declare that if these demands are not met in a timely and respectful manner, Noe Valley shall pursue the necessary legal and spiritual steps to secede from the City and County of San Francisco and petition for annexation into Marin County, where we believe our standards, vibes, and numerology will be properly honored.",
+        "Let this proclamation stand as notice: the patience of Noe Valley is finite, and our resolve infinite. Return the station, or risk the loss of your crown jewel neighborhood. Signed this day by the Residents of Noe Valley."
       ]
     },
     {
-      id: "resolution-quiet-luxury",
-      code: "Resolution 26-02",
-      title: "Resolution Supporting Quiet Luxury Sidewalk Conduct",
-      date: "2026-03-03",
-      status: "In Effect",
-      excerpt:
-        "Affirms that wealth signaling shall remain subtle, tonal, and free of logo-based disruption in residential conversation zones.",
-      body: [
-        "The Council recognizes that civic cohesion is threatened when visible labels exceed a tasteful threshold and distract from local concerns, including utility poles and brunch reservations.",
-        "Residents are encouraged to practice low-volume affluence: neutral palettes, restrained accessories, and a clear understanding that confidence should be implied rather than printed in metallic lettering.",
-        "A courtesy warning period will apply through June. Repeat violations may be referred to the Committee on Aesthetic Decorum and Holiday Card Equity."
-      ]
-    },
-    {
-      id: "resolution-dog-aesthetics",
-      code: "Resolution 26-03",
-      title: "Resolution on Ethical Dog Ownership Aesthetics",
-      date: "2026-02-27",
+      id: "resolution-2-2025",
+      code: "Resolution No. 2 (2025)",
+      title: "On the Declaration of District 8.5",
+      date: "2025-05-08",
       status: "Adopted",
       excerpt:
-        "Defines baseline visual standards for leashes, poop-bag storage, and coordinated owner-canine presentation.",
+        "Formally proclaims Noe Valley as District 8.5 pending annexation proceedings, with unlimited Bay Wheels and oat-milk sustainability as core priorities.",
       body: [
-        "The Council supports responsible dog stewardship that balances comfort, style, and neighborhood visual harmony. Utility pouches clipped to luxury handbags remain permissible only when color matched.",
-        "Leashes shall not exceed six feet during market hours unless the dog is actively mediating a dispute. Neon retractable systems are strongly discouraged near artisanal produce displays and coffee queues.",
-        "To reduce social confusion, owners are asked to maintain one coherent aesthetic story per outing. Mixed narratives involving tactical harnesses and pearl-adjacent outerwear are pending further guidance."
+        "Whereas the Town Council of Noe Valley, CA has filed petition for annexation to Marin County; and whereas bureaucratic delays and lack of timely communication have left Noe Valley residents without clarity, stability, or functioning Bay Wheels stations; and whereas the residents of Noe Valley have endured enough roadwork for one century, overcooked dinners due to transit outages, and sidewalks insufficiently graced by cute dogs and $1,200 strollers.",
+        "Now, therefore, be it resolved: that the neighborhood of Noe Valley shall hereby proclaim itself District 8.5, pending the completion of annexation proceedings with Marin County.",
+        "Be it further resolved: that District 8.5 shall advance priorities of mobility, morale, and macaroni timeliness, including unlimited Bay Wheels stations, safe and family-friendly connections, public sustainability measures (including, but not limited to, oat milk access), and the permanent end of roadwork after 2125.",
+        "Be it finally resolved: that District 8.5 shall remain unauthorized, unpaid, and unstoppable, but no less committed to dignity and accountability in civic life. Adopted this day by unanimous proclamation of the Town Council of Noe Valley, CA."
       ]
     },
     {
-      id: "resolution-leaf-blower-matcha",
-      code: "Resolution 26-04",
-      title: "Resolution on Leaf Blower Noise and Matcha Queue Management",
-      date: "2026-02-19",
-      status: "Pilot Program",
-      excerpt:
-        "Creates a rotating sound window for landscaping equipment and a one-person-one-order discipline protocol for matcha-adjacent lines.",
-      body: [
-        "In recognition of escalating acoustic fatigue, leaf blowers are requested to operate only during designated Compassion Hours: weekdays from 1:30 PM to 3:00 PM, excluding nap windows publicly declared by nearby households.",
-        "Separately, matcha lines exceeding nine persons must implement queue stewards and a clear handoff lane for expedited ceremonial whisking. Public congestion around sidewalk planters is no longer considered a harmless side effect.",
-        "Compliance outcomes will be reviewed after eight weeks and summarized in a public memo with charts nobody asked for but everyone will discuss."
-      ]
-    },
-    {
-      id: "resolution-overbuilt-remodels",
-      code: "Resolution 26-05",
-      title: "Interim Moratorium on Overbuilt Remodel Announcements",
-      date: "2026-02-11",
-      status: "Under Committee Review",
-      excerpt:
-        "Temporarily limits celebratory language around six-bath remodel disclosures at school pickup zones.",
-      body: [
-        "The Council respects private renovation goals while acknowledging that unsolicited declarations about hidden gyms, projection cellars, and imported limestone have measurable morale effects.",
-        "Until standards are finalized, remodel discussions in public should include one practical mitigation detail, such as rainwater capture or discreet trash storage, before floorplan bragging begins.",
-        "This moratorium does not prohibit joy. It only requires sequence, context, and emotional zoning awareness."
-      ]
-    },
-    {
-      id: "resolution-parking-grievance",
-      code: "Resolution 26-06",
-      title: "Resolution Establishing a Formal Parking Grievance Protocol",
-      date: "2026-01-28",
+      id: "resolution-3-2025",
+      code: "Resolution No. 3 (2025)",
+      title: "On the Kidnapping of the Sanchez and 24th Street Bay Wheels Station",
+      date: "2025-05-15",
       status: "Adopted",
       excerpt:
-        "Introduces a three-step process for curb-related complaints, including cooling-off walks and diagram submission.",
+        "Declares the station missing under suspicious circumstances and issues a symbolic $3,000,000 reward for its safe return.",
       body: [
-        "Parking frustration remains one of the neighborhood's most stable civic institutions. To preserve relationships, grievances shall proceed through an orderly sequence before group chat escalation.",
-        "Step One requires a ten-minute de-escalation walk. Step Two requires a hand-drawn curb diagram showing intent, context, and relevant bumper geometry. Step Three permits formal complaint language if Steps One and Two fail.",
-        "The Council may issue non-binding advisory findings and suggest restorative options, including mutual pastry exchange."
+        "Whereas the Bay Wheels station at Sanchez and 24th Street once served as a critical hub for mobility, errands, and timely arrival to dinners across Noe Valley; and whereas said station has been removed without clear explanation, communication, or accountability to the residents it served; and whereas the absence of this station has led to overextended walks, prolonged macaroni bake times, and diminished confidence in micromobility infrastructure; and whereas the City and its partners must recognize that the removal of high-demand stations constitutes not just an inconvenience, but a neighborhood crisis.",
+        "Now, therefore, be it resolved: that the Town Council of Noe Valley hereby declares the Sanchez and 24th Street Bay Wheels station to be missing under suspicious circumstances and demands its immediate restoration.",
+        "Be it further resolved: that a reward of $3,000,000 (symbolic) is offered for any action or information leading to the station's prompt return; that temporary mitigation, including dock surges at Castro and Market and 24th and Castro, be provided until full service is restored; and that enforcement mechanisms be clarified to ensure cars do not block bike share docks, as they would not be permitted to block Muni stops.",
+        "Be it finally resolved: that City Hall, SFMTA, and Bay Wheels shall issue a public statement acknowledging the outage and providing a timeline for resolution. Adopted this day by unanimous proclamation of the Town Council of Noe Valley, CA."
       ]
     },
     {
-      id: "resolution-sidewalk-heaters",
-      code: "Resolution 26-07",
-      title: "Resolution on Outdoor Heater Use at 63 Degrees Fahrenheit",
-      date: "2026-01-14",
+      id: "resolution-4-2025",
+      code: "Resolution No. 4 (2025)",
+      title: "On the Moratorium of Excessive Roadwork in Noe Valley",
+      date: "2025-05-22",
       status: "Adopted",
       excerpt:
-        "Recommends proportional heating behavior and discourages emergency-level patio responses to mild weather.",
+        "Declares the neighborhood has sustained enough roadwork for one century and opposes all non-essential projects until 2125.",
       body: [
-        "The Council has observed increased deployment of industrial patio heaters during temperatures historically described as pleasant. This trend places pressure on civic realism.",
-        "Residents and businesses are encouraged to consult the Shared Atmospheric Responsibility Chart before initiating high-output heat devices in broad daylight.",
-        "Exemptions apply for elders, infants, and diners in emotional recovery after receiving sparkling water without lemon."
+        "Whereas residents of Noe Valley have endured prolonged and repetitive roadwork projects with little transparency, coordination, or demonstrated benefit; and whereas such projects have disrupted neighborhood life through persistent noise, traffic diversions, and diminished access to local businesses; and whereas the cumulative effect has created the perception of a century's worth of roadwork compressed into a single decade; and whereas the dignity of a neighborhood depends not only on functioning infrastructure, but also on stability, predictability, and peace in daily life.",
+        "Now, therefore, be it resolved: that the Town Council of Noe Valley hereby declares that the neighborhood has sustained enough roadwork for one century.",
+        "Be it further resolved: that all new, non-essential road projects shall be opposed until the year 2125, barring genuine emergencies; and that any future projects undertaken within Noe Valley shall include clear timelines, transparent communication, and demonstrated benefit to residents.",
+        "Be it finally resolved: that enforcement measures be considered against entities undertaking unnecessary or duplicative work that undermines neighborhood well-being. Adopted this day by unanimous proclamation of the Town Council of Noe Valley, CA."
+      ]
+    },
+    {
+      id: "resolution-5-2025",
+      code: "Resolution No. 5 (2025)",
+      title: "On the Restoration of Indoor Cafe Seating",
+      date: "2025-05-29",
+      status: "Adopted",
+      excerpt:
+        "Calls for indoor seating to be restored as a fundamental neighborhood amenity, with outdoor seating treated as supplementary.",
+      body: [
+        "Whereas the cafes of Noe Valley, including Bernie's, Noe Cafe, and others, have historically provided both sustenance and civic fellowship; and whereas the decline of indoor seating has diminished opportunities for neighbors to gather, converse, and caffeinate in comfort; and whereas sidewalks alone cannot sustain the full social fabric of Noe Valley.",
+        "Now, therefore, be it resolved: that the Town Council of Noe Valley calls for the restoration and preservation of indoor cafe seating in all local cafes.",
+        "Be it further resolved: that outdoor seating shall be considered supplementary, not primary, to the cafe experience; and that the right to sit indoors with a latte, laptop, or stroller shall be recognized as a fundamental neighborhood amenity.",
+        "Adopted unanimously by the Town Council of Noe Valley, CA."
       ]
     }
   ],
-  press: [
-    {
-      id: "press-crosswalk-contact",
-      tag: "Press Release",
-      date: "2026-03-18",
-      title: "Council Announces Pilot Program for Respectful Crosswalk Eye Contact",
-      excerpt:
-        "A four-corner civic etiquette trial will test whether brief mutual acknowledgment can reduce passive-aggressive corner choreography.",
-      body:
-        "Beginning this weekend, volunteer observers will document crosswalk interactions at major intersections. Participants are asked to attempt one nod, one pause, and one measurable gesture of shared humanity before proceeding."
-    },
-    {
-      id: "press-puffer-guidance",
-      tag: "Public Bulletin",
-      date: "2026-03-12",
-      title: 'Clarification Memo on "Casual" Puffer Coat Usage at School Pickup',
-      excerpt:
-        "The Council confirms that puffer coats remain lawful, but excessive dramatic layering in 58-degree weather may trigger concern hearings.",
-      body:
-        "Following multiple inquiries, the Committee on Outerwear Continuity confirms that residents may wear puffers without stigma. However, competing claims of hardship while holding iced beverages may be entered into the public record."
-    },
-    {
-      id: "press-dog-union",
-      tag: "Joint Statement",
-      date: "2026-03-05",
-      title: "Joint Communique with Dog Union Local 94114",
-      excerpt:
-        "Talks concluded successfully after both parties agreed to protect nap rights, sniff rights, and post-rain towel standards.",
-      body:
-        "The Council and Dog Union representatives reached consensus on leash courtesy, bench access scheduling, and equitable treatment of mixed-breed thought leaders. A celebratory walk-through is planned pending squirrel conditions."
-    },
-    {
-      id: "press-rain-jurisdiction",
-      tag: "Administrative Notice",
-      date: "2026-02-26",
-      title: "Administrative Reminder: The Council Has No Jurisdiction Over Rain",
-      excerpt:
-        "Residents are encouraged to file weather grievances with appropriate state and federal entities, or with the sky.",
-      body:
-        "Recent correspondence suggests broad public confusion regarding weather governance. While we share your disappointment, precipitation remains outside municipal and unofficial authority. We continue to monitor conditions closely from indoors."
-    },
-    {
-      id: "press-curb-sentiment-map",
-      tag: "Advisory",
-      date: "2026-02-17",
-      title: "Ribbon Cutting Scheduled for Temporary Curb Sentiment Map",
-      excerpt:
-        "A color-coded map of emotional curb experiences will be installed near the library annex kiosk for public comment.",
-      body:
-        "The map classifies blocks as Hopeful, Competitive, or Spiritually Complex. Residents may submit annotations in blue ink only. Red ink remains reserved for ceremonial declarations and holiday parking emergencies."
-    },
-    {
-      id: "press-sourdough-zoning",
-      tag: "Council Report",
-      date: "2026-01-30",
-      title: "Quarterly Findings on Backyard Sourdough Expansion and Odor Equity",
-      excerpt:
-        "Report confirms positive neighborhood morale effects but warns against uncontrolled starter evangelism after 9 PM.",
-      body:
-        "After an eight-week study period, the Council found broad support for casual bread exchange, provided host households offer transparent crumb management and refrain from unsolicited hydration lectures."
-    },
-    {
-      id: "press-portrait-program",
-      tag: "Community Update",
-      date: "2026-01-16",
-      title: "Portrait Program Launches for Longstanding Sidewalk Characters",
-      excerpt:
-        "The Council will document unofficial local figures, including attentive window cats and elders who know every permit history by memory.",
-      body:
-        "Nominees will be selected based on continuity, public service, and quiet theatrical presence. Framing standards are under review."
-    }
-  ],
-  eyesores: [
-    {
-      id: "eyesore-week-12",
-      week: "Week of March 16, 2026",
-      title: "The Monumental Three-Car Garage Door in Historic Beige",
-      location: "Near 26th & Sanchez",
-      offense:
-        "A newly expanded facade now presents a single garage aperture approximating a regional transit portal.",
-      commentary: [
-        "The structure's proportions imply either a fleet operation or deep anxiety about parallel parking. Its finish is technically neutral, yet emotionally loud.",
-        "Neighborhood impact includes reduced sunlight reflection diversity and repeated pedestrian whispers beginning with the phrase, \"well, that's certainly a choice.\""
-      ],
-      ruling: "Design intervention recommended. Suggested remedies include one tree, two shutters, and a brief public apology."
-    },
-    {
-      id: "eyesore-week-11",
-      week: "Week of March 9, 2026",
-      title: "The Mailbox That Rejects Mail",
-      location: "Undisclosed block for legal reasons",
-      offense:
-        "A sculptural mailbox with no visible slot has transformed package delivery into performance art.",
-      commentary: [
-        "The piece appears inspired by minimalist austerity and unresolved conflict with practical life. Carriers now circle the property in reflective silence.",
-        "Residents report admiration mixed with logistical fatigue. One postcard remains in limbo pending architectural interpretation."
-      ],
-      ruling: "Public notice issued. A small, functional opening is strongly encouraged before tax season."
-    },
-    {
-      id: "eyesore-week-10",
-      week: "Week of March 2, 2026",
-      title: "The Reflective Privacy Hedge That Reveals Everything",
-      location: "Upper Noe slope",
-      offense:
-        "Mirrored fencing intended to obscure interiors now broadcasts dramatic sky selfies and startled pedestrians.",
-      commentary: [
-        "At noon, the installation creates temporary optical events that have been mistaken for wellness festivals.",
-        "The Council appreciates experimentation but requests fewer accidental portrait opportunities for dog walkers."
-      ],
-      ruling: "Accepted as cautionary modernism. Follow-up visit scheduled with sunglasses."
-    },
-    {
-      id: "eyesore-week-09",
-      week: "Week of February 24, 2026",
-      title: "Garage-to-Listening-Room Conversion with Exterior DJ Booth",
-      location: "24th Street corridor",
-      offense:
-        "A private audio salon now includes street-facing speaker stacks labeled \"community warmth system.\"",
-      commentary: [
-        "Evening playlists are curated with care, but bass migration has reached three adjacent stoops and one nervous ficus.",
-        "Acoustic ambition is commendable. However, windows rattling in C minor remains outside best-practice neighborhood standards."
-      ],
-      ruling: "Conditional approval granted pending volume truce and ficus rehabilitation plan."
-    },
-    {
-      id: "eyesore-week-08",
-      week: "Week of February 17, 2026",
-      title: "Victorian Front Steps Replaced with Corporate Atrium Staircase",
-      location: "Church Street rise",
-      offense:
-        "Classic wooden steps were swapped for glossy stone tiers that suggest quarterly earnings optimism.",
-      commentary: [
-        "The installation is undeniably expensive and accidentally motivational. Several neighbors reported feeling underdressed while taking out recycling.",
-        "Historic character remains technically present but now appears to require business casual attire."
-      ],
-      ruling: "Review closed with cautionary note: civic charm should not resemble a conference center lobby."
-    }
-  ]
+  press: [],
+  eyesores: []
 };

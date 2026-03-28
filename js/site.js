@@ -84,8 +84,8 @@
           </div>
           <div>
             <h2 class="footer-heading">Contact</h2>
-            <p><a href="mailto:${content.site?.email || "clerk@noevalleytowncouncil.org"}">${content.site?.email || "clerk@noevalleytowncouncil.org"}</a></p>
-            <p>Public hearing line: (415) 555-0124</p>
+            <p><a href="mailto:${content.site?.email || "towncouncilnoevalley@gmail.com"}">${content.site?.email || "towncouncilnoevalley@gmail.com"}</a></p>
+            <p>Public hearing line: ${content.site?.phone || "(415) 494-7160"}</p>
           </div>
           <div>
             <h2 class="footer-heading">Follow</h2>
@@ -129,6 +129,17 @@
     if (!target || !Array.isArray(content.press)) return;
 
     const items = content.press.slice(0, 3);
+    if (!items.length) {
+      target.innerHTML = `
+        <article class="list-item reveal">
+          <p class="eyebrow">Public Information Office</p>
+          <h3>No releases published yet</h3>
+          <p>News and press statements will appear here once the council begins formal publication.</p>
+        </article>
+      `;
+      return;
+    }
+
     target.innerHTML = items
       .map(
         (post, index) => `
@@ -144,7 +155,18 @@
 
   function renderHomeEyesore() {
     const target = document.querySelector("#home-eyesore");
-    if (!target || !Array.isArray(content.eyesores) || !content.eyesores.length) return;
+    if (!target || !Array.isArray(content.eyesores)) return;
+
+    if (!content.eyesores.length) {
+      target.innerHTML = `
+        <article class="feature-panel reveal">
+          <p class="eyebrow">Architectural Review Desk</p>
+          <h3>No featured case yet</h3>
+          <p>The first Architectural Eyesore of the Week will be posted after initial committee review.</p>
+        </article>
+      `;
+      return;
+    }
 
     const featured = content.eyesores[0];
     target.innerHTML = `
@@ -195,6 +217,18 @@
     const target = document.querySelector("#press-list");
     if (!target || !Array.isArray(content.press)) return;
 
+    if (!content.press.length) {
+      target.innerHTML = `
+        <article class="press-item reveal">
+          <p class="eyebrow">Pending Publication</p>
+          <h2>No Press Releases Yet</h2>
+          <p class="meta">Archive status: empty</p>
+          <p>The council has not published any News & Press releases yet.</p>
+        </article>
+      `;
+      return;
+    }
+
     target.innerHTML = content.press
       .map(
         (post, index) => `
@@ -216,7 +250,24 @@
   function renderEyesorePage() {
     const featuredTarget = document.querySelector("#eyesore-featured");
     const archiveTarget = document.querySelector("#eyesore-archive");
-    if (!Array.isArray(content.eyesores) || !content.eyesores.length) return;
+    if (!Array.isArray(content.eyesores)) return;
+
+    if (!content.eyesores.length) {
+      if (featuredTarget) {
+        featuredTarget.innerHTML = `
+          <article class="eyesore-feature reveal">
+            <p class="eyebrow">Archive Pending</p>
+            <h2>No Featured Eyesore Yet</h2>
+            <p class="meta">No cases on file</p>
+            <p>Architectural Eyesore content has not been published yet.</p>
+          </article>
+        `;
+      }
+      if (archiveTarget) {
+        archiveTarget.innerHTML = "";
+      }
+      return;
+    }
 
     if (featuredTarget) {
       const featured = content.eyesores[0];

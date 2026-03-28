@@ -20,7 +20,7 @@ noe-valley-town-council/
 │   └── site.js
 └── assets/
     └── images/
-        └── noe-seal.svg
+        └── noe-hero.svg
 ```
 
 ## Content editing
