@@ -19,6 +19,13 @@
     }).format(date);
   }
 
+  function getResolutionsNewestFirst() {
+    if (!Array.isArray(content.resolutions)) return [];
+    return content.resolutions
+      .slice()
+      .sort((a, b) => new Date(b.date + "T00:00:00") - new Date(a.date + "T00:00:00"));
+  }
+
   function insertHeader() {
     const mount = document.querySelector('[data-component="header"]');
     if (!mount) return;
@@ -89,8 +96,8 @@
           </div>
           <div>
             <h2 class="footer-heading">Follow</h2>
-            <p><a href="${content.site?.social?.instagram || "https://www.instagram.com/"}" target="_blank" rel="noreferrer noopener">Instagram</a></p>
-            <p><a href="${content.site?.social?.x || "https://x.com/"}" target="_blank" rel="noreferrer noopener">X / Twitter</a></p>
+            <p>Instagram (Coming Soon!)</p>
+            <p>X / Twitter (Coming Soon!)</p>
           </div>
         </div>
         <div class="container footer-bottom">
@@ -106,9 +113,9 @@
 
   function renderFeaturedResolutions() {
     const target = document.querySelector("#home-resolutions");
-    if (!target || !Array.isArray(content.resolutions)) return;
+    if (!target) return;
 
-    const items = content.resolutions.slice(0, 3);
+    const items = getResolutionsNewestFirst().slice(0, 3);
     target.innerHTML = items
       .map(
         (item, index) => `
@@ -188,9 +195,9 @@
 
   function renderResolutionsPage() {
     const target = document.querySelector("#resolutions-list");
-    if (!target || !Array.isArray(content.resolutions)) return;
+    if (!target) return;
 
-    target.innerHTML = content.resolutions
+    target.innerHTML = getResolutionsNewestFirst()
       .map(
         (item, index) => `
         <article class="resolution-item reveal" id="${item.id}" style="animation-delay:${index * 70}ms">
@@ -313,12 +320,17 @@
 
     if (!form || !status) return;
 
-    form.addEventListener("submit", (event) => {
-      event.preventDefault();
+    const nextField = form.querySelector("#form-next");
+    if (nextField) {
+      nextField.value = `${window.location.origin}${window.location.pathname}?submitted=1`;
+    }
+
+    const query = new URLSearchParams(window.location.search);
+    if (query.get("submitted") === "1") {
       status.textContent =
-        "Submission logged. Your concern has been routed to the appropriate committee for ceremonial review within 3 to 5 civic business days.";
-      form.reset();
-    });
+        "Submission received and forwarded. Your concern has been routed to the appropriate committee.";
+      window.history.replaceState({}, "", window.location.pathname);
+    }
   }
 
   function init() {

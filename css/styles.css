@@ -2,11 +2,11 @@
   --bg: #d9d0c7;
   --bg-deep: #d0c5bb;
   --paper: #ebe3db;
-  --ink: #8c745e;
-  --ink-soft: #6f5d4c;
+  --ink: #000000;
+  --ink-soft: #000000;
   --line: #a69286;
-  --accent: #a69286;
-  --accent-deep: #8c745e;
+  --accent: #000000;
+  --accent-deep: #000000;
   --sage: #a69286;
   --radius: 14px;
   --shadow: 0 12px 28px rgba(93, 73, 57, 0.12);
@@ -56,8 +56,9 @@ a:hover {
   position: absolute;
   left: -999px;
   top: 0.5rem;
-  background: var(--ink);
-  color: #fff;
+  background: var(--paper);
+  color: #000000;
+  border: 1px solid var(--line);
   padding: 0.5rem 0.75rem;
   border-radius: 0.35rem;
   z-index: 999;
@@ -177,7 +178,7 @@ body[data-page="home"] .page-hero {
   padding: clamp(1.3rem, 3vw, 2.2rem);
   background:
     linear-gradient(140deg, rgba(140, 116, 94, 0.18), rgba(166, 146, 134, 0.16)),
-    url("../assets/images/noe-hero.svg") center/cover no-repeat;
+    url("../assets/images/noe-hero.png") center/cover no-repeat;
   box-shadow: var(--shadow);
 }
 
@@ -191,12 +192,12 @@ body[data-page="home"] .page-hero {
 
 .home-image-overlay h1 {
   margin: 0 0 0.5rem;
-  color: #5f4d3d;
+  color: #000000;
 }
 
 .home-image-overlay p {
   margin: 0;
-  color: #6b5848;
+  color: #000000;
 }
 
 .home-image-overlay .cta-row {
@@ -251,7 +252,7 @@ h3 {
 .lead {
   margin: 0;
   font-size: clamp(1.05rem, 1.8vw, 1.36rem);
-  color: #6d5a49;
+  color: #000000;
   max-width: 42ch;
 }
 
@@ -280,14 +281,14 @@ h3 {
 }
 
 .button-primary {
-  background: var(--ink);
-  color: #fff;
+  background: #d9d0c7;
+  color: #000000;
 }
 
 .button-primary:hover,
 .button-primary:focus-visible {
-  color: #fff;
-  background: #755f4d;
+  color: #000000;
+  background: #c9beb2;
 }
 
 .button-secondary {
@@ -395,7 +396,7 @@ body[data-page="home"] h3 a {
 
 .page-head p {
   margin: 0;
-  color: #705c4b;
+  color: #000000;
   font-size: clamp(1.05rem, 2.1vw, 1.26rem);
 }
 
@@ -498,7 +499,7 @@ textarea {
 #contact-status {
   margin-top: 0.8rem;
   font-weight: 600;
-  color: #6f5d4c;
+  color: #000000;
 }
 
 .site-footer {
