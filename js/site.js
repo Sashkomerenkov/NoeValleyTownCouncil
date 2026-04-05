@@ -178,7 +178,6 @@
     const featured = content.eyesores[0];
     target.innerHTML = `
       <article class="feature-panel reveal">
-        ${featured.image ? `<img class="eyesore-photo" src="${featured.image}" alt="${featured.imageAlt || featured.title}" />` : ""}
         <p class="eyebrow">${featured.week}</p>
         <h3>${featured.title}</h3>
         <p><strong>Location:</strong> ${featured.location}</p>
