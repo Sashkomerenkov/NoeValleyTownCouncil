@@ -445,6 +445,14 @@ summary {
   margin-top: 0.6rem;
 }
 
+.eyesore-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  margin-bottom: 0.9rem;
+}
+
 .ruling {
   border-top: 1px dashed var(--line);
   margin-top: 1rem;

@@ -178,6 +178,7 @@
     const featured = content.eyesores[0];
     target.innerHTML = `
       <article class="feature-panel reveal">
+        ${featured.image ? `<img class="eyesore-photo" src="${featured.image}" alt="${featured.imageAlt || featured.title}" />` : ""}
         <p class="eyebrow">${featured.week}</p>
         <h3>${featured.title}</h3>
         <p><strong>Location:</strong> ${featured.location}</p>
@@ -280,12 +281,13 @@
       const featured = content.eyesores[0];
       featuredTarget.innerHTML = `
         <article class="eyesore-feature reveal" id="${featured.id}">
+          ${featured.image ? `<img class="eyesore-photo" src="${featured.image}" alt="${featured.imageAlt || featured.title}" />` : ""}
           <p class="eyebrow">${featured.week}</p>
           <h2>${featured.title}</h2>
           <p class="meta">${featured.location}</p>
           <p><strong>Primary Finding:</strong> ${featured.offense}</p>
           ${featured.commentary.map((item) => `<p>${item}</p>`).join("")}
-          <p class="ruling"><strong>Council Ruling:</strong> ${featured.ruling}</p>
+          ${featured.ruling ? `<p class="ruling"><strong>Council Ruling:</strong> ${featured.ruling}</p>` : ""}
         </article>
       `;
     }
@@ -296,6 +298,7 @@
         .map(
           (entry, index) => `
           <article class="archive-item reveal" id="${entry.id}" style="animation-delay:${index * 80}ms">
+            ${entry.image ? `<img class="eyesore-photo" src="${entry.image}" alt="${entry.imageAlt || entry.title}" />` : ""}
             <p class="eyebrow">${entry.week}</p>
             <h3>${entry.title}</h3>
             <p class="meta">${entry.location}</p>
@@ -304,7 +307,7 @@
               <summary>Open case notes</summary>
               <div class="details-body">
                 ${entry.commentary.map((item) => `<p>${item}</p>`).join("")}
-                <p><strong>Ruling:</strong> ${entry.ruling}</p>
+                ${entry.ruling ? `<p><strong>Ruling:</strong> ${entry.ruling}</p>` : ""}
               </div>
             </details>
           </article>

@@ -88,5 +88,20 @@ window.NVTC_CONTENT = {
     }
   ],
   press: [],
-  eyesores: []
+  eyesores: [
+    {
+      id: "eyesore-month-castro-001",
+      week: "Eyesore of the Month • April 2026",
+      title: "Ugly House of the Month",
+      location: "Castro Street",
+      image: "assets/images/ugly-house-of-the-month.jpg",
+      imageAlt: "Modern gray house on Castro Street selected as the first Eyesore of the Month feature",
+      offense:
+        "Our first Eyesore of the Month selection from Castro Street.",
+      commentary: [
+        "Our inaugural feature on the road through aesthetic hell takes us to Castro Street, where someone felt it necessary to produce this lovely addition to the neighborhood. This house? abode? structure is apparently not a new-build, but a reverse improvement of an existing structure, completed in 2016. Whether the charming result looks more like a pixelated version of a Super Nintendo or a discolored Rubix cube is an exercise we leave to the dear reader. Nonetheless, the lucky and sophisticated owner apparently secured the property for a bit under $1M back in 2012. While this could be considered a relative steal in a place like Noe Valley, Zillow estimates that, were it to hit the market today, it might run you back $2.4M. If the state of the panelling to the right of (what is probably?) the garage door is anything to go by, the owner apparently cares for the structure about as much as the other residents who are forced to lay eyes on it each and every day. Amazingly, the city has given the building a historical resource categorization of B, meaning “further consultation is required” to determine if the property is a historical resource, because God is dead."
+      ],
+      ruling: ""
+    }
+  ]
 };
