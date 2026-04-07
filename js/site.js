@@ -34,7 +34,8 @@
     const navLinks = navItems
       .map((item) => {
         const active = item.page === currentPage ? "is-active" : "";
-        return `<li><a class="${active}" href="${item.href}">${item.label}</a></li>`;
+        const current = item.page === currentPage ? ' aria-current="page"' : "";
+        return `<li><a class="${active}" href="${item.href}"${current}>${item.label}</a></li>`;
       })
       .join("");
 
@@ -74,6 +75,13 @@
         nav.classList.remove("is-open");
         document.body.classList.remove("nav-open");
       });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape") return;
+      toggle.setAttribute("aria-expanded", "false");
+      nav.classList.remove("is-open");
+      document.body.classList.remove("nav-open");
     });
   }
 

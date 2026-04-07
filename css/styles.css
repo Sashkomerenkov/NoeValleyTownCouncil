@@ -10,6 +10,11 @@
   --sage: #a69286;
   --radius: 14px;
   --shadow: 0 12px 28px rgba(93, 73, 57, 0.12);
+  --home-rail-width: 160px;
+  --home-rail-height: 600px;
+  --home-rail-gutter: 16px;
+  --home-rail-top-offset: 8px;
+  --header-desktop-height: 5.3rem;
 }
 
 * {
@@ -24,10 +29,13 @@ body {
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
   font-family: "Source Sans 3", "Gill Sans", "Avenir Next", sans-serif;
+  font-size: 1rem;
   color: var(--ink);
   line-height: 1.6;
   background: radial-gradient(circle at 15% -15%, #ede7df 0%, var(--bg) 42%, var(--bg-deep) 100%);
@@ -36,6 +44,31 @@ body {
 
 body.nav-open {
   overflow: hidden;
+}
+
+.side-sky-rail {
+  position: fixed;
+  top: calc(var(--header-desktop-height) + var(--home-rail-top-offset));
+  width: var(--home-rail-width);
+  height: var(--home-rail-height);
+  z-index: 12;
+}
+
+.side-sky-rail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.side-sky-rail-left {
+  left: max(var(--home-rail-gutter), calc((100vw - 1140px) / 2 - (var(--home-rail-width) + var(--home-rail-gutter))));
+}
+
+.side-sky-rail-right {
+  right: max(var(--home-rail-gutter), calc((100vw - 1140px) / 2 - (var(--home-rail-width) + var(--home-rail-gutter))));
 }
 
 img {
@@ -50,6 +83,10 @@ a {
 
 a:hover {
   color: var(--accent-deep);
+}
+
+a:focus-visible {
+  text-decoration: underline;
 }
 
 .skip-link {
@@ -111,7 +148,9 @@ a:hover {
 .site-nav a {
   text-decoration: none;
   font-size: 1.01rem;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
   padding: 0.2rem 0;
   border-bottom: 1px solid transparent;
   transition: border-color 200ms ease, color 200ms ease;
@@ -267,6 +306,7 @@ h3 {
   border: 1px solid var(--ink);
   border-radius: 999px;
   padding: 0.55rem 1.08rem;
+  min-height: 2.75rem;
   text-decoration: none;
   font-weight: 600;
   display: inline-flex;
@@ -489,6 +529,11 @@ textarea {
   padding: 0.63rem 0.7rem;
 }
 
+input,
+select {
+  min-height: 2.75rem;
+}
+
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible,
@@ -515,6 +560,8 @@ textarea {
   border-top: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(217, 208, 199, 0.82), rgba(205, 194, 183, 0.95));
   padding-top: 2rem;
+  position: relative;
+  z-index: 20;
 }
 
 .footer-grid {
@@ -632,6 +679,8 @@ textarea {
     transform: translateY(-122%);
     transition: transform 260ms ease;
     box-shadow: 0 10px 30px rgba(50, 45, 38, 0.12);
+    max-height: calc(100vh - 4.5rem);
+    overflow-y: auto;
   }
 
   .site-nav ul {
@@ -649,11 +698,19 @@ textarea {
 
   .site-nav a {
     font-size: 1.05rem;
+    width: 100%;
+    padding: 0.45rem 0;
   }
 
   .card-grid,
   .about-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1499px) {
+  .side-sky-rail {
+    display: none;
   }
 }
 
@@ -676,6 +733,21 @@ textarea {
   }
 }
 
+@media (max-width: 480px) {
+  .section-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-image-overlay {
+    padding: 0.85rem;
+  }
+
+  .cta-row .button {
+    width: 100%;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -684,5 +756,10 @@ textarea {
   * {
     animation: none !important;
     transition: none !important;
+  }
+
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
