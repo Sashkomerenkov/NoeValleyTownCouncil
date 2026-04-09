@@ -485,7 +485,8 @@ summary {
   margin-top: 0.6rem;
 }
 
-.eyesore-photo {
+.eyesore-photo,
+.resolution-photo {
   width: 100%;
   height: auto;
   border-radius: 10px;

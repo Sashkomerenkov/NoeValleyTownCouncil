@@ -215,6 +215,7 @@
           </div>
           <h2>${item.title}</h2>
           <p class="meta"><time datetime="${item.date}">${formatDate(item.date)}</time></p>
+          ${item.image ? `<img class="resolution-photo" src="${item.image}" alt="${item.imageAlt || item.title}" loading="lazy" />` : ""}
           <p>${item.excerpt}</p>
           <details>
             <summary>Read full text</summary>
