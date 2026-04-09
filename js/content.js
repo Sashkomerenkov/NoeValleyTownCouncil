@@ -159,7 +159,39 @@ window.NVTC_CONTENT = {
       ]
     }
   ],
-  press: [],
+  press: [
+    {
+      id: "press-hill-shaving-operations",
+      tag: "Official Notice",
+      date: "2026-04-08",
+      title: "OFFICIAL NOTICE OF HILL-SHAVING OPERATIONS",
+      excerpt:
+        "To address ongoing reports of toddlers achieving dangerous downhill velocities, the City Noe Valley Department of Urban Terrain will begin shaving select hills effective immediately.",
+      body: [
+        "OFFICIAL NOTICE OF HILL-SHAVING OPERATIONS",
+        "CITY OF NOE VALLEY, COUNTY OF MARIN",
+        "Topographical Smoothing Initiative — Effective Immediately",
+        "To address ongoing reports of toddlers achieving dangerous downhill velocities, the City Noe Valley Department of Urban Terrain will begin shaving select hills to reduce the risk of spontaneous toddler roll-away incidents.",
+        "WHY THIS IS HAPPENING",
+        "Local toddlers, even when secured with rope, continue to stumble downhill at alarming speeds.",
+        "Parents report quad failure while attempting stroller ascents.",
+        "Several dogs have entered “sideways slide mode” while pretending to be fine.",
+        "Noe Valley’s hills are officially classified as “Cute but Hostile.”",
+        "WHAT TO EXPECT",
+        "Precision hill-shaving machines between 7 AM – 4 PM.",
+        "Temporary loss of neighborhood bragging rights about incline severity.",
+        "Increased toddler confidence, which may paradoxically worsen the situation.",
+        "GPS confusion as it attempts to understand why Noe Valley is suddenly less vertical.",
+        "SAFETY GUIDANCE",
+        "Secure all toddlers before 7 AM. Rope usage is still allowed, but no lassoing.",
+        "Residents are asked to keep oat-milk beverages indoors as they may attract geologists.",
+        "Do not attempt to collect hill shavings. They are considered unstable and emotionally charged.",
+        "COMMUNITY FEEDBACK",
+        "Comments may be submitted by whispering concerns directly into your latte foam.",
+        "All input will be fully composted by the City Noe Valley, County of Marin."
+      ]
+    }
+  ],
   eyesores: [
     {
       id: "eyesore-month-castro-001",

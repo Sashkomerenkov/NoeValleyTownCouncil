@@ -143,7 +143,10 @@
     const target = document.querySelector("#home-press");
     if (!target || !Array.isArray(content.press)) return;
 
-    const items = content.press.slice(0, 3);
+    const items = content.press
+      .slice()
+      .sort((a, b) => new Date(b.date + "T00:00:00") - new Date(a.date + "T00:00:00"))
+      .slice(0, 3);
     if (!items.length) {
       target.innerHTML = `
         <article class="list-item reveal">
@@ -245,7 +248,11 @@
       return;
     }
 
-    target.innerHTML = content.press
+    const sortedPress = content.press
+      .slice()
+      .sort((a, b) => new Date(b.date + "T00:00:00") - new Date(a.date + "T00:00:00"));
+
+    target.innerHTML = sortedPress
       .map(
         (post, index) => `
         <article class="press-item reveal" id="${post.id}" style="animation-delay:${index * 70}ms">
@@ -255,7 +262,11 @@
           <p>${post.excerpt}</p>
           <details>
             <summary>Read full bulletin</summary>
-            <div class="details-body"><p>${post.body}</p></div>
+            <div class="details-body">${
+              Array.isArray(post.body)
+                ? post.body.map((paragraph) => `<p>${paragraph}</p>`).join("")
+                : `<p>${post.body}</p>`
+            }</div>
           </details>
         </article>
       `
