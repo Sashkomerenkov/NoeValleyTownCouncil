@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop | Noe Valley Town Council</title>
+    <meta
+      name="description"
+      content="Town Council Goods: satirical Noe Valley posters and the Slug Safety Kit, issued under soft municipal authority."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script defer src="js/content.js"></script>
+    <script defer src="js/site.js"></script>
+  </head>
+  <body data-page="shop">
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div data-component="header"></div>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="container page-head reveal">
+          <p class="hero-ribbon">Issued Under Soft Municipal Authority</p>
+          <h1>Town Council Goods</h1>
+          <p>
+            Neighborhood supply for domestic display, civic overreaction, and gift-giving among people who can identify
+            a block by stroller traffic pattern alone.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Neighborhood Supply</p>
+              <h2>Poster Collection &amp; Slug Safety Kit</h2>
+            </div>
+          </div>
+          <div id="shop-products" class="shop-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container dual-grid shop-order-grid">
+          <article class="shop-order-panel reveal" id="shop-order-panel">
+            <p class="eyebrow">Order Desk</p>
+            <h2>Venmo Checkout Instructions</h2>
+            <p id="shop-order-summary">Select a product to populate order details.</p>
+            <p><strong>Venmo:</strong> <span id="shop-venmo-handle">@YOURVENMOHERE</span></p>
+            <p id="shop-venmo-note">
+              Include item name, email, and shipping name in your Venmo note, or send those details with the backup
+              form.
+            </p>
+            <p id="shop-shipping-note">Ships within 5–7 business days.</p>
+          </article>
+
+          <article class="shop-form-panel reveal" style="animation-delay: 120ms">
+            <p class="eyebrow">Backup Intake Form</p>
+            <h2>Manual Order Form</h2>
+            <p>
+              This form prepares an email order draft. Payments are accepted through Venmo while we remain gloriously
+              low-tech.
+            </p>
+            <form id="shop-order-form" class="form-grid" novalidate>
+              <div class="field">
+                <label for="shop-order-name">Name</label>
+                <input id="shop-order-name" name="name" type="text" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="shop-order-email">Email</label>
+                <input id="shop-order-email" name="email" type="email" autocomplete="email" required />
+              </div>
+              <div class="field field-wide">
+                <label for="shop-order-shipping">Shipping Address</label>
+                <textarea
+                  id="shop-order-shipping"
+                  name="shipping_address"
+                  rows="3"
+                  autocomplete="street-address"
+                  required
+                ></textarea>
+              </div>
+              <div class="field">
+                <label for="shop-order-item">Item Ordered</label>
+                <select id="shop-order-item" name="item" required></select>
+              </div>
+              <div class="field">
+                <label for="shop-order-variant">Size / Variant</label>
+                <select id="shop-order-variant" name="variant" required></select>
+              </div>
+              <div class="field">
+                <label for="shop-order-quantity">Quantity</label>
+                <input id="shop-order-quantity" name="quantity" type="number" min="1" step="1" value="1" required />
+              </div>
+              <div class="field field-wide">
+                <label for="shop-order-note">Optional Note</label>
+                <textarea id="shop-order-note" name="note" rows="3"></textarea>
+              </div>
+              <div class="field field-wide">
+                <button class="button button-primary" type="submit">Prepare Order Email</button>
+              </div>
+            </form>
+            <p id="shop-order-status" role="status" aria-live="polite"></p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <article class="about-panel reveal">
+            <p class="eyebrow">Shop FAQ</p>
+            <h2>How Ordering Works</h2>
+            <div class="shop-faq-grid">
+              <div>
+                <h3>How ordering works</h3>
+                <p>
+                  Choose an item, select a size or variant, send Venmo, then submit the backup form so we can match
+                  payment to shipping details.
+                </p>
+              </div>
+              <div>
+                <h3>Payments accepted via Venmo</h3>
+                <p>
+                  We currently process payments through Venmo only. Include item name, email, and shipping name in your
+                  payment note.
+                </p>
+              </div>
+              <div>
+                <h3>Shipping timing</h3>
+                <p>
+                  Please allow 5–7 business days for shipping. Flat shipping is $6 per order, with free shipping on
+                  orders over $60.
+                </p>
+              </div>
+              <div>
+                <h3>Official status</h3>
+                <p>
+                  This is an unofficial art project and parody publication. We are not a government agency, despite our
+                  paperwork tone.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div data-component="footer"></div>
+
+    <div id="shop-modal" class="shop-modal" hidden aria-hidden="true">
+      <div class="shop-modal-backdrop" data-shop-close></div>
+      <div class="shop-modal-panel" role="dialog" aria-modal="true" aria-labelledby="shop-modal-title">
+        <button class="shop-modal-close" type="button" data-shop-close aria-label="Close product details">×</button>
+        <div id="shop-modal-content"></div>
+      </div>
+    </div>
+  </body>
+</html>

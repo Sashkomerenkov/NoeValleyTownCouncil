@@ -192,6 +192,181 @@ window.NVTC_CONTENT = {
       ]
     }
   ],
+  shop: {
+    heading: "Town Council Goods",
+    intro:
+      "Issued under soft municipal authority for residents, visitors, and concerned pedestrians. Every item is approved for domestic display and neighborhood debate.",
+    venmoHandle: "@YOURVENMOHERE",
+    orderEmail: "towncouncilnoevalley@gmail.com",
+    shippingWindow: "Ships within 5–7 business days",
+    shippingFlatRate: 6,
+    freeShippingOver: 60,
+    posterVariants: [
+      { id: "8x10", label: "8x10 print", price: 9 },
+      { id: "11x14", label: "11x14 print", price: 16 },
+      { id: "12x18", label: "12x18 print", price: 21 }
+    ],
+    products: [
+      {
+        id: "poster-peak-golden-retriever-density",
+        kind: "poster",
+        title: "Peak Golden Retriever Density",
+        image: "assets/images/shop/peak-golden-retriever-density.png",
+        imageAlt: "Peak Golden Retriever Density poster",
+        shortDescription:
+          "A field map of local retriever concentration. Suitable for hallways and passive-aggressive stairwells.",
+        detail:
+          "Issued for households that value canine abundance, orderly sidewalks, and warm neighborhood statistics."
+      },
+      {
+        id: "poster-oat-milk-heir",
+        kind: "poster",
+        title: "Oat Milk Heir",
+        image: "assets/images/shop/oat-milk-heir.png",
+        imageAlt: "Oat Milk Heir poster",
+        shortDescription:
+          "Commemorates succession planning in districts where alt-dairy is considered a birthright.",
+        detail:
+          "Recommended for nurseries, coffee corners, and any room where tiny monarch energy is encouraged."
+      },
+      {
+        id: "poster-private-daycare-sutro",
+        kind: "poster",
+        title: "Private daycare: $3500 / The view of Sutro Tower: priceless.",
+        image: "assets/images/shop/private-daycare-sutro-tower.png",
+        imageAlt: "Private daycare and Sutro Tower poster",
+        shortDescription:
+          "A civic accounting classic for parents balancing tuition invoices with atmospheric scenery.",
+        detail:
+          "For residents who accept financial chaos but still demand a dramatic skyline at pickup."
+      },
+      {
+        id: "poster-1-dog-2-incomes",
+        kind: "poster",
+        title: "1 Dog 2 Incomes",
+        image: "",
+        imageAlt: "1 Dog 2 Incomes poster preview coming soon",
+        shortDescription:
+          "An internal revenue portrait of modern neighborhood economics and premium treat budgets.",
+        detail:
+          "Preview art pending final clerical stamping. Order queue is open under provisional authority."
+      },
+      {
+        id: "poster-soft-launch-husbands",
+        kind: "poster",
+        title: "Soft Launch Husbands",
+        image: "assets/images/shop/soft-launch-husbands.png",
+        imageAlt: "Soft Launch Husbands poster",
+        shortDescription:
+          "A calm procession of tote bags, quarter-zips, and gentle confidence in public space.",
+        detail:
+          "Field-tested for Saturday errands, early park arrivals, and carefully curated domestic competence."
+      },
+      {
+        id: "poster-stroller-congestion-zone",
+        kind: "poster",
+        title: "Stroller Congestion Zone",
+        image: "assets/images/shop/stroller-congestion-zone.png",
+        imageAlt: "Stroller Congestion Zone poster",
+        shortDescription:
+          "Official corridor warning for intersections where turning radius becomes a philosophical issue.",
+        detail:
+          "Display near entryways to remind guests that lane discipline is a civic virtue."
+      },
+      {
+        id: "poster-waymo-in-the-wild",
+        kind: "poster",
+        title: "Waymo in the Wild",
+        image: "assets/images/shop/waymo-in-the-wild.png",
+        imageAlt: "Waymo in the Wild poster",
+        shortDescription:
+          "Documents first contact between autonomous vehicles and emotionally attached grocery carts.",
+        detail:
+          "Appropriate for kitchens, mudrooms, and all households navigating transport anxiety with dignity."
+      },
+      {
+        id: "poster-rat-envy",
+        kind: "poster",
+        title: "Rat Envy",
+        image: "assets/images/shop/rat-envy.png",
+        imageAlt: "Rat Envy poster",
+        shortDescription:
+          "Captures the silent class tension between curated family walks and nearby urban wildlife.",
+        detail:
+          "For residents who appreciate subtle tragedy, lush hedges, and high-stakes neighborhood observation."
+      },
+      {
+        id: "poster-side-quest-walk",
+        kind: "poster",
+        title: "It's Not Just a Walk, It's a Whole Side Quest",
+        image: "assets/images/shop/its-not-just-a-walk.png",
+        imageAlt: "It's Not Just a Walk, It's a Whole Side Quest poster",
+        shortDescription:
+          "A procedural map of every detour, distraction, and emotional subplot encountered outdoors.",
+        detail:
+          "Issued for residents whose simple block walk routinely expands into a two-hour campaign."
+      },
+      {
+        id: "poster-slug-influencers",
+        kind: "poster",
+        title: "Slug Influencers",
+        image: "assets/images/shop/slug-influencers.png",
+        imageAlt: "Slug Influencers poster",
+        shortDescription:
+          "Hydration-forward portraiture from the damp side of neighborhood thought leadership.",
+        detail:
+          "Approved for bathrooms, vanity walls, and homes operating at full dewy-vibes capacity."
+      },
+      {
+        id: "poster-oat-milk-bottle",
+        kind: "poster",
+        title: "Oat Milk Bottle Poster",
+        image: "assets/images/shop/oat-milk-bottle-poster.png",
+        imageAlt: "Oat Milk bottle poster",
+        shortDescription:
+          "A minimalist bottle study for residents who prefer their iconography lactose-free and ceremonial.",
+        detail:
+          "Pairs well with espresso equipment and dramatic statements about neighborhood sourcing standards."
+      },
+      {
+        id: "poster-joy",
+        kind: "poster",
+        title: "Joy.",
+        image: "assets/images/shop/joy-poster.png",
+        imageAlt: "Joy poster",
+        shortDescription:
+          "A municipal reminder that delight is still permitted when the cargo bike is fully loaded.",
+        detail:
+          "Issued for kitchens, playrooms, and all locations requiring a sanctioned morale increase."
+      },
+      {
+        id: "poster-dog-before-child-energy",
+        kind: "poster",
+        title: "Dog Before Child Energy",
+        image: "assets/images/shop/dog-before-child-energy.png",
+        imageAlt: "Dog Before Child Energy poster",
+        shortDescription:
+          "An archival portrait of priority clarity, emotional loyalty, and weather-resistant outerwear.",
+        detail:
+          "Recommended for entry halls and other spaces where value systems should remain unmistakable."
+      },
+      {
+        id: "slug-safety-kit",
+        kind: "kit",
+        title: "Slug Safety Kit",
+        image: "assets/images/shop/slug-safety-kit.jpg",
+        imageAlt: "Slug Safety Kit sign samples",
+        shortDescription:
+          "Mini crossing-sign craft kit for neighborhood interventions and decorative public works.",
+        detail:
+          "Includes printed mini slug signs, sticks, and field instructions for gentle civic deployment.",
+        variants: [
+          { id: "standard", label: "Standard kit", price: 12.95 },
+          { id: "deluxe", label: "Deluxe kit", price: 18.95 }
+        ]
+      }
+    ]
+  },
   eyesores: [
     {
       id: "eyesore-month-castro-001",

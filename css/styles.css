@@ -367,7 +367,10 @@ main section {
 .eyesore-feature,
 .callout,
 .contact-card,
-.about-panel {
+.about-panel,
+.shop-card,
+.shop-order-panel,
+.shop-form-panel {
   border: 1px solid rgba(212, 203, 188, 0.95);
   background: rgba(251, 249, 244, 0.85);
   border-radius: var(--radius);
@@ -631,6 +634,171 @@ textarea {
   margin-top: 1rem;
 }
 
+.shop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.shop-card {
+  padding: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.shop-media {
+  aspect-ratio: 3 / 4;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, #efe8da, #e6ddca);
+}
+
+.shop-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shop-image-placeholder {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 1rem;
+  color: var(--ink-soft);
+  font-family: "Libre Baskerville", "Iowan Old Style", serif;
+}
+
+.shop-card-copy {
+  padding: 1rem;
+}
+
+.shop-price {
+  margin: 0.45rem 0 0.6rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.shop-order-grid {
+  align-items: start;
+}
+
+.shop-order-panel p,
+.shop-form-panel p {
+  margin-top: 0.5rem;
+}
+
+.shop-form-panel textarea {
+  min-height: 5.2rem;
+}
+
+#shop-order-status {
+  margin-top: 0.8rem;
+  font-weight: 700;
+}
+
+#shop-order-status.is-success {
+  color: #2f5f39;
+}
+
+#shop-order-status.is-error {
+  color: #8b2f35;
+}
+
+.shop-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.shop-faq-grid h3 {
+  margin-bottom: 0.45rem;
+}
+
+.shop-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+}
+
+.shop-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(38, 33, 26, 0.62);
+  backdrop-filter: blur(2px);
+}
+
+.shop-modal-panel {
+  position: relative;
+  width: min(980px, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  margin: 1rem auto;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+  padding: 1.1rem;
+}
+
+.shop-modal-close {
+  margin-left: auto;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 999px;
+  width: 2.1rem;
+  height: 2.1rem;
+  display: grid;
+  place-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.shop-modal-layout {
+  margin-top: 0.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr);
+  gap: 1rem;
+}
+
+.shop-modal-media {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #efe8da;
+}
+
+.shop-modal-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shop-modal-copy {
+  display: grid;
+  align-content: start;
+  gap: 0.7rem;
+}
+
+.shop-modal-copy h2 {
+  margin-top: 0;
+}
+
+.shop-detail-note {
+  margin: 0;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.shop-modal-price {
+  margin: 0;
+  font-weight: 700;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(14px);
@@ -656,6 +824,10 @@ textarea {
   }
 
   .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .shop-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -704,7 +876,13 @@ textarea {
   }
 
   .card-grid,
-  .about-grid {
+  .about-grid,
+  .shop-grid,
+  .shop-faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-modal-layout {
     grid-template-columns: 1fr;
   }
 }
