@@ -505,8 +505,12 @@ summary {
 
 .form-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.form-grid > * {
+  min-width: 0;
 }
 
 .field {
@@ -531,6 +535,8 @@ textarea {
   background: #efe8e0;
   border-radius: 0.45rem;
   padding: 0.63rem 0.7rem;
+  width: 100%;
+  max-width: 100%;
 }
 
 input,
@@ -690,6 +696,10 @@ textarea {
 
 .shop-form-panel textarea {
   min-height: 5.2rem;
+}
+
+.shop-form-panel {
+  overflow: hidden;
 }
 
 #shop-order-status {
@@ -879,6 +889,10 @@ body.modal-open {
   .about-grid,
   .shop-grid,
   .shop-faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-form-panel .form-grid {
     grid-template-columns: 1fr;
   }
 
