@@ -196,7 +196,7 @@ window.NVTC_CONTENT = {
     heading: "Town Council Goods",
     intro:
       "Issued under soft municipal authority for residents, visitors, and concerned pedestrians. Every item is approved for domestic display and neighborhood debate.",
-    venmoHandle: "@YOURVENMOHERE",
+    venmoHandle: "@noevalleytowncouncil",
     orderEmail: "towncouncilnoevalley@gmail.com",
     shippingWindow: "Ships within 5–7 business days",
     shippingFlatRate: 6,

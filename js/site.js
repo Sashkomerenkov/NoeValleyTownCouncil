@@ -454,7 +454,7 @@
       <p><strong>Price:</strong> ${formatCurrency(variant.price)}</p>
     `;
 
-    venmoTarget.textContent = shop.venmoHandle || "@YOURVENMOHERE";
+    venmoTarget.textContent = shop.venmoHandle || "@noevalleytowncouncil";
     venmoNoteTarget.textContent =
       "In your Venmo note, include item name, your email, and shipping name. Then complete the backup form below for fulfillment.";
     shippingTarget.textContent =
@@ -697,7 +697,7 @@
         `Subtotal: ${formatCurrency(subtotal)}`,
         `Shipping: ${shipping ? formatCurrency(shipping) : "Free"}`,
         `Estimated Total: ${formatCurrency(total)}`,
-        `Venmo Handle: ${shop.venmoHandle || "@YOURVENMOHERE"}`,
+        `Venmo Handle: ${shop.venmoHandle || "@noevalleytowncouncil"}`,
         "",
         "Optional Note:",
         note || "(none)",
