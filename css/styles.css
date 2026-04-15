@@ -425,9 +425,17 @@ body[data-page="home"] h3 a {
   gap: 1rem;
 }
 
+.dual-grid > * {
+  min-width: 0;
+}
+
 .stack {
   display: grid;
   gap: 1rem;
+}
+
+.stack > * {
+  min-width: 0;
 }
 
 .callout {
@@ -495,29 +503,60 @@ summary {
 
 .details-body {
   margin-top: 0.6rem;
+  display: grid;
+  gap: 0.75rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.details-body > * {
+  min-width: 0;
+}
+
+.details-body p,
+.details-body a,
+.details-body li {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .press-media-grid {
   display: grid;
   gap: 0.9rem;
   margin: 0 0 1rem;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .press-media {
   margin: 0;
+  min-width: 0;
 }
 
 .press-media img {
   width: 100%;
   height: auto;
+  max-width: min(100%, 700px);
   border-radius: 10px;
   border: 1px solid var(--line);
+  margin-inline: auto;
+  background: rgba(239, 232, 224, 0.95);
 }
 
 .press-media figcaption {
   margin-top: 0.4rem;
   font-size: 0.92rem;
   color: var(--ink-soft);
+  max-width: min(100%, 700px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body[data-page="press"] #press-list,
+body[data-page="press"] .press-item,
+body[data-page="press"] details,
+body[data-page="press"] .details-body {
+  min-width: 0;
 }
 
 .eyesore-photo,
