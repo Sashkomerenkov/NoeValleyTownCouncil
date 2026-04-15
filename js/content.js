@@ -161,6 +161,20 @@ window.NVTC_CONTENT = {
   ],
   press: [
     {
+      id: "press-slug-safety-zone-kit-elizabeth-dewy-zone",
+      tag: "Press Release",
+      date: "2026-04-14",
+      title: "Noe Valley Town Council Announces “Slug Safety Zone Kit” & Launch of Elizabeth Dewy Zone",
+      excerpt:
+        "The Noe Valley Town Council has announced the launch of its Slug Safety Zone Kit alongside the official designation of a new “Dewy Zone” on Elizabeth Street between Diamond and Douglas.",
+      body: [
+        "The Noe Valley Town Council has announced the launch of its Slug Safety Zone Kit alongside the official designation of a new “Dewy Zone” on Elizabeth Street between Diamond and Douglas, marking a significant step in what organizers describe as a broader effort to support safe, dignified mobility for one of the neighborhood’s slowest and most overlooked populations. The initiative comes after growing concern about the impacts of pedestrian congestion, stroller traffic, and increasingly dry sidewalk conditions on local slug activity, particularly during early morning and post-fog hours when slugs are most active.",
+        "The Slug Safety Zone Kit introduces a series of highly visible yellow street-style signs placed throughout the corridor, including messages such as “Slug Xing,” “Slug Merge,” “Yield (Eventually),” “Dewy Vibes Only,” “Hold the Salt,” and “Speed Limit 0.03 MPH,” all designed to raise awareness while encouraging behavioral shifts among residents and passersby. According to the council, Elizabeth Street was selected based on observed environmental conditions favorable to slug movement, including consistent moisture retention, shaded plant cover, and relatively low but unpredictable foot traffic that can pose risks during peak crossing times.",
+        "Officials say the Dewy Zone designation is intended to create a shared understanding that this stretch functions as a critical habitat corridor, where small adjustments in human behavior, such as slowing down, avoiding salt use, and maintaining moisture-friendly conditions, can significantly reduce accidental harm. While the tone of the signage reflects the neighborhood’s characteristic blend of humor and civic-mindedness, organizers emphasize that the underlying goal is to promote coexistence and environmental awareness at a hyperlocal scale.",
+        "The Town Council has indicated that additional Dewy Zones may be considered in the future based on community feedback and seasonal moisture patterns, with early discussions already pointing to other parts of Noe Valley where similar conditions exist."
+      ]
+    },
+    {
       id: "press-hill-shaving-operations",
       tag: "Official Notice",
       date: "2026-04-08",
