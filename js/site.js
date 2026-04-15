@@ -250,6 +250,32 @@
       .join("");
   }
 
+  function renderPressMedia(post, prioritizeFirstImage) {
+    const mediaItems = safeArray(post.media);
+    if (!mediaItems.length) return "";
+
+    return `
+      <div class="press-media-grid">
+        ${mediaItems
+          .map(
+            (item, index) => `
+              <figure class="press-media">
+                <img
+                  src="${item.src}"
+                  alt="${item.alt || ""}"
+                  loading="${prioritizeFirstImage && index === 0 ? "eager" : "lazy"}"
+                  decoding="async"
+                  fetchpriority="${prioritizeFirstImage && index === 0 ? "high" : "low"}"
+                />
+                ${item.caption ? `<figcaption>${item.caption}</figcaption>` : ""}
+              </figure>
+            `
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
   function renderPressPage() {
     const target = document.querySelector("#press-list");
     if (!target || !Array.isArray(content.press)) return;
@@ -280,11 +306,14 @@
           <p>${post.excerpt}</p>
           <details>
             <summary>Read full bulletin</summary>
-            <div class="details-body">${
+            <div class="details-body">
+              ${renderPressMedia(post, index === 0)}
+              ${
               Array.isArray(post.body)
                 ? post.body.map((paragraph) => `<p>${paragraph}</p>`).join("")
                 : `<p>${post.body}</p>`
-            }</div>
+              }
+            </div>
           </details>
         </article>
       `

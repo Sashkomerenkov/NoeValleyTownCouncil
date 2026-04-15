@@ -497,6 +497,29 @@ summary {
   margin-top: 0.6rem;
 }
 
+.press-media-grid {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.press-media {
+  margin: 0;
+}
+
+.press-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+}
+
+.press-media figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
 .eyesore-photo,
 .resolution-photo {
   width: 100%;

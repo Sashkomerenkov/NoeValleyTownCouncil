@@ -204,6 +204,30 @@ window.NVTC_CONTENT = {
         "Comments may be submitted by whispering concerns directly into your latte foam.",
         "All input will be fully composted by the City Noe Valley, County of Marin."
       ]
+    },
+    {
+      id: "press-liberate-noe-valley-campaign",
+      tag: "Archived Campaign",
+      date: "2024-05-12",
+      title: "Liberate Noe Valley! Escape the Chaos—Join Marin County Now!",
+      excerpt:
+        "One of the earliest viral campaigns from the Noe Valley Town Council was the now-iconic “Liberate Noe Valley! Escape the Chaos—Join Marin County Now!” petition.",
+      media: [
+        {
+          src: "assets/images/press/liberate-noe-valley-flyer.png",
+          alt: "A satirical campaign flyer reading “Liberate Noe Valley! Escape the Chaos—Join Marin County Now!” with a QR code and petition link.",
+          caption: "Original “Liberate Noe Valley” flyer calling on residents to support annexation into Marin County."
+        },
+        {
+          src: "assets/images/press/new-marin-county-map.jpg",
+          alt: "A modified map of Marin County showing Noe Valley inserted into the county as part of a fictional annexation campaign.",
+          caption: "Modified Marin County map depicting Noe Valley’s proposed rightful territorial realignment."
+        }
+      ],
+      body: [
+        "Liberate Noe Valley! Escape the Chaos—Join Marin County Now!",
+        "One of the earliest viral campaigns from the Noe Valley Town Council was the now-iconic “Liberate Noe Valley! Escape the Chaos—Join Marin County Now!” petition, a bold civic intervention that asked a simple question: what if Noe Valley finally stopped suffering under the endless pressures of San Francisco and embraced a calmer, leafier, more spiritually aligned future in Marin County? Complete with a dramatic flyer, a modified Marin County map showing Noe Valley’s rightful new place across the Golden Gate, and a Change.org petition addressed to key decision-makers including Matt Dorsey and others, the campaign framed annexation not just as a political demand but as a lifestyle correction. The petition called out packed streets, nonstop construction, and a city government allegedly incapable of delivering adequate parking, serenity, or suburban dignity, while promising cleaner air, more open space, and freedom from the daily psychic burden of artisanal urbanism. With supporter names ranging from the believable to the suspiciously inspired, the petition quickly became one of the first major viral moments in Town Council history and helped establish the organization’s signature tone: deadpan, grandiose, vaguely procedural, and completely committed to the idea that absurd local grievances deserve beautiful, fully branded advocacy materials. View the original petition here: https://www.change.org/p/liberate-noe-valley-escape-the-chaos-join-marin-county-now?recruiter=12583745&recruited_by_id=6315a780-f0db-012f-b49b-404046835f95&utm_source=share_petition&utm_campaign=starter_onboarding_share_personal&utm_medium=copylink"
+      ]
     }
   ],
   shop: {
