@@ -46,6 +46,15 @@ body.nav-open {
   overflow: hidden;
 }
 
+[data-component="header"] {
+  display: block;
+  min-height: var(--header-desktop-height);
+}
+
+[data-component="footer"] {
+  display: block;
+}
+
 .side-sky-rail {
   position: fixed;
   top: calc(var(--header-desktop-height) + var(--home-rail-top-offset));
@@ -217,7 +226,7 @@ body[data-page="home"] .page-hero {
   padding: clamp(1.3rem, 3vw, 2.2rem);
   background:
     linear-gradient(140deg, rgba(140, 116, 94, 0.18), rgba(166, 146, 134, 0.16)),
-    url("../assets/images/noe-hero.png") center/cover no-repeat;
+    url("../assets/images/noe-hero.jpg") center/cover no-repeat;
   box-shadow: var(--shadow);
 }
 
@@ -565,6 +574,18 @@ textarea {
   color: #000000;
 }
 
+#home-resolutions {
+  min-height: clamp(260px, 34vh, 360px);
+}
+
+#home-press {
+  min-height: clamp(180px, 24vh, 260px);
+}
+
+#home-eyesore {
+  min-height: clamp(180px, 24vh, 250px);
+}
+
 .site-footer {
   margin-top: clamp(2.5rem, 6vw, 4.5rem);
   border-top: 1px solid var(--line);
@@ -815,6 +836,14 @@ body.modal-open {
   animation: reveal-up 0.62s ease forwards;
 }
 
+.home-image-surface.reveal,
+.hero-copy.reveal,
+.page-head.reveal {
+  opacity: 1;
+  transform: none;
+  animation: none;
+}
+
 @keyframes reveal-up {
   to {
     opacity: 1;
@@ -843,6 +872,10 @@ body.modal-open {
 }
 
 @media (max-width: 880px) {
+  [data-component="header"] {
+    min-height: 4.5rem;
+  }
+
   .header-row {
     grid-template-columns: 1fr auto;
     gap: 1rem;

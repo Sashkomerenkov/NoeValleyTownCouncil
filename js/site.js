@@ -232,7 +232,11 @@
           </div>
           <h2>${item.title}</h2>
           <p class="meta"><time datetime="${item.date}">${formatDate(item.date)}</time></p>
-          ${item.image ? `<img class="resolution-photo" src="${item.image}" alt="${item.imageAlt || item.title}" loading="lazy" />` : ""}
+          ${
+            item.image
+              ? `<img class="resolution-photo" src="${item.image}" alt="${item.imageAlt || item.title}" loading="lazy" decoding="async" fetchpriority="low" />`
+              : ""
+          }
           <p>${item.excerpt}</p>
           <details>
             <summary>Read full text</summary>
@@ -314,7 +318,11 @@
       const featured = content.eyesores[0];
       featuredTarget.innerHTML = `
         <article class="eyesore-feature reveal" id="${featured.id}">
-          ${featured.image ? `<img class="eyesore-photo" src="${featured.image}" alt="${featured.imageAlt || featured.title}" />` : ""}
+          ${
+            featured.image
+              ? `<img class="eyesore-photo" src="${featured.image}" alt="${featured.imageAlt || featured.title}" loading="eager" decoding="async" fetchpriority="high" />`
+              : ""
+          }
           <p class="eyebrow">${featured.week}</p>
           <h2>${featured.title}</h2>
           <p class="meta">${featured.location}</p>
@@ -331,7 +339,11 @@
         .map(
           (entry, index) => `
           <article class="archive-item reveal" id="${entry.id}" style="animation-delay:${index * 80}ms">
-            ${entry.image ? `<img class="eyesore-photo" src="${entry.image}" alt="${entry.imageAlt || entry.title}" />` : ""}
+            ${
+              entry.image
+                ? `<img class="eyesore-photo" src="${entry.image}" alt="${entry.imageAlt || entry.title}" loading="lazy" decoding="async" fetchpriority="low" />`
+                : ""
+            }
             <p class="eyebrow">${entry.week}</p>
             <h3>${entry.title}</h3>
             <p class="meta">${entry.location}</p>
@@ -497,7 +509,7 @@
     const variants = getVariantsForProduct(product);
     const initialVariant = variants[0];
     const media = product.image
-      ? `<img src="${product.image}" alt="${product.imageAlt || product.title}" loading="lazy" />`
+      ? `<img src="${product.image}" alt="${product.imageAlt || product.title}" loading="eager" decoding="async" />`
       : '<div class="shop-image-placeholder">Poster preview pending committee approval.</div>';
 
     modalContent.innerHTML = `
@@ -563,7 +575,7 @@
           <div class="shop-media">
             ${
               product.image
-                ? `<img src="${product.image}" alt="${product.imageAlt || product.title}" loading="lazy" />`
+                ? `<img src="${product.image}" alt="${product.imageAlt || product.title}" loading="lazy" decoding="async" fetchpriority="low" />`
                 : '<div class="shop-image-placeholder">Poster preview pending committee approval.</div>'
             }
           </div>

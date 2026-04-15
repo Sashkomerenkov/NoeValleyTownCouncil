@@ -11,11 +11,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
-      rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap"
+      />
+    </noscript>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-64.png" />
     <script defer src="js/content.js"></script>
     <script defer src="js/site.js"></script>
   </head>
@@ -23,10 +36,10 @@
     <a class="skip-link" href="#main">Skip to main content</a>
     <div data-component="header"></div>
     <aside class="side-sky-rail side-sky-rail-left" aria-label="Sidebar banner">
-      <img src="assets/images/nvtc-side-rail-banner.png" alt="Advertise here banner" width="160" height="600" />
+      <img src="assets/images/nvtc-side-rail-banner.jpg" alt="Advertise here banner" width="160" height="600" loading="lazy" decoding="async" fetchpriority="low" />
     </aside>
     <aside class="side-sky-rail side-sky-rail-right" aria-label="Sidebar banner">
-      <img src="assets/images/nvtc-side-rail-banner.png" alt="Advertise here banner" width="160" height="600" />
+      <img src="assets/images/nvtc-side-rail-banner.jpg" alt="Advertise here banner" width="160" height="600" loading="lazy" decoding="async" fetchpriority="low" />
     </aside>
 
     <main id="main">

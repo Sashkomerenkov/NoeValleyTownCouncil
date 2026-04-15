@@ -41,7 +41,7 @@ window.NVTC_CONTENT = {
       title: "On the Declaration of District 8.5",
       date: "2025-05-08",
       status: "Adopted",
-      image: "assets/images/resolutions/resolution-2.png",
+      image: "assets/images/resolutions/resolution-2.jpg",
       imageAlt: "Noe Valley seceding to District 8.5 graphic for Resolution No. 2",
       excerpt:
         "The neighborhood of Noe Valley shall hereby proclaim itself District 8.5 — pending annexation proceedings with Marin County.",
@@ -93,7 +93,7 @@ window.NVTC_CONTENT = {
       title: "On the Moratorium of Excessive Roadwork in Noe Valley",
       date: "2025-05-22",
       status: "Adopted",
-      image: "assets/images/resolutions/resolution-4.png",
+      image: "assets/images/resolutions/resolution-4.jpg",
       imageAlt: "No road work symbol for Resolution No. 4",
       excerpt:
         "The Town Council of Noe Valley hereby declares that the neighborhood has sustained enough roadwork for one century.",
@@ -118,7 +118,7 @@ window.NVTC_CONTENT = {
       title: "On the Restoration of Indoor Café Seating",
       date: "2025-05-29",
       status: "Adopted",
-      image: "assets/images/resolutions/resolution-5.png",
+      image: "assets/images/resolutions/resolution-5.jpg",
       imageAlt: "Indoor seating by any means necessary graphic for Resolution No. 5",
       excerpt:
         "The Town Council of Noe Valley calls for the restoration and preservation of indoor café seating in all local cafés.",
@@ -225,7 +225,7 @@ window.NVTC_CONTENT = {
         id: "poster-peak-golden-retriever-density",
         kind: "poster",
         title: "Peak Golden Retriever Density",
-        image: "assets/images/shop/peak-golden-retriever-density.png",
+        image: "assets/images/shop/peak-golden-retriever-density.jpg",
         imageAlt: "Peak Golden Retriever Density poster",
         shortDescription:
           "A field map of local retriever concentration. Suitable for hallways and passive-aggressive stairwells.",
@@ -236,7 +236,7 @@ window.NVTC_CONTENT = {
         id: "poster-oat-milk-heir",
         kind: "poster",
         title: "Oat Milk Heir",
-        image: "assets/images/shop/oat-milk-heir.png",
+        image: "assets/images/shop/oat-milk-heir.jpg",
         imageAlt: "Oat Milk Heir poster",
         shortDescription:
           "Commemorates succession planning in districts where alt-dairy is considered a birthright.",
@@ -247,7 +247,7 @@ window.NVTC_CONTENT = {
         id: "poster-private-daycare-sutro",
         kind: "poster",
         title: "Private daycare: $3500 / The view of Sutro Tower: priceless.",
-        image: "assets/images/shop/private-daycare-sutro-tower.png",
+        image: "assets/images/shop/private-daycare-sutro-tower.jpg",
         imageAlt: "Private daycare and Sutro Tower poster",
         shortDescription:
           "A civic accounting classic for parents balancing tuition invoices with atmospheric scenery.",
@@ -269,7 +269,7 @@ window.NVTC_CONTENT = {
         id: "poster-soft-launch-husbands",
         kind: "poster",
         title: "Soft Launch Husbands",
-        image: "assets/images/shop/soft-launch-husbands.png",
+        image: "assets/images/shop/soft-launch-husbands.jpg",
         imageAlt: "Soft Launch Husbands poster",
         shortDescription:
           "A calm procession of tote bags, quarter-zips, and gentle confidence in public space.",
@@ -280,7 +280,7 @@ window.NVTC_CONTENT = {
         id: "poster-stroller-congestion-zone",
         kind: "poster",
         title: "Stroller Congestion Zone",
-        image: "assets/images/shop/stroller-congestion-zone.png",
+        image: "assets/images/shop/stroller-congestion-zone.jpg",
         imageAlt: "Stroller Congestion Zone poster",
         shortDescription:
           "Official corridor warning for intersections where turning radius becomes a philosophical issue.",
@@ -291,7 +291,7 @@ window.NVTC_CONTENT = {
         id: "poster-waymo-in-the-wild",
         kind: "poster",
         title: "Waymo in the Wild",
-        image: "assets/images/shop/waymo-in-the-wild.png",
+        image: "assets/images/shop/waymo-in-the-wild.jpg",
         imageAlt: "Waymo in the Wild poster",
         shortDescription:
           "Documents first contact between autonomous vehicles and emotionally attached grocery carts.",
@@ -302,7 +302,7 @@ window.NVTC_CONTENT = {
         id: "poster-rat-envy",
         kind: "poster",
         title: "Rat Envy",
-        image: "assets/images/shop/rat-envy.png",
+        image: "assets/images/shop/rat-envy.jpg",
         imageAlt: "Rat Envy poster",
         shortDescription:
           "Captures the silent class tension between curated family walks and nearby urban wildlife.",
@@ -313,7 +313,7 @@ window.NVTC_CONTENT = {
         id: "poster-side-quest-walk",
         kind: "poster",
         title: "It's Not Just a Walk, It's a Whole Side Quest",
-        image: "assets/images/shop/its-not-just-a-walk.png",
+        image: "assets/images/shop/its-not-just-a-walk.jpg",
         imageAlt: "It's Not Just a Walk, It's a Whole Side Quest poster",
         shortDescription:
           "A procedural map of every detour, distraction, and emotional subplot encountered outdoors.",
@@ -324,7 +324,7 @@ window.NVTC_CONTENT = {
         id: "poster-slug-influencers",
         kind: "poster",
         title: "Slug Influencers",
-        image: "assets/images/shop/slug-influencers.png",
+        image: "assets/images/shop/slug-influencers.jpg",
         imageAlt: "Slug Influencers poster",
         shortDescription:
           "Hydration-forward portraiture from the damp side of neighborhood thought leadership.",
@@ -335,7 +335,7 @@ window.NVTC_CONTENT = {
         id: "poster-oat-milk-bottle",
         kind: "poster",
         title: "Oat Milk Bottle Poster",
-        image: "assets/images/shop/oat-milk-bottle-poster.png",
+        image: "assets/images/shop/oat-milk-bottle-poster.jpg",
         imageAlt: "Oat Milk bottle poster",
         shortDescription:
           "A minimalist bottle study for residents who prefer their iconography lactose-free and ceremonial.",
@@ -346,7 +346,7 @@ window.NVTC_CONTENT = {
         id: "poster-joy",
         kind: "poster",
         title: "Joy.",
-        image: "assets/images/shop/joy-poster.png",
+        image: "assets/images/shop/joy-poster.jpg",
         imageAlt: "Joy poster",
         shortDescription:
           "A municipal reminder that delight is still permitted when the cargo bike is fully loaded.",
@@ -357,7 +357,7 @@ window.NVTC_CONTENT = {
         id: "poster-dog-before-child-energy",
         kind: "poster",
         title: "Dog Before Child Energy",
-        image: "assets/images/shop/dog-before-child-energy.png",
+        image: "assets/images/shop/dog-before-child-energy.jpg",
         imageAlt: "Dog Before Child Energy poster",
         shortDescription:
           "An archival portrait of priority clarity, emotional loyalty, and weather-resistant outerwear.",
@@ -368,7 +368,7 @@ window.NVTC_CONTENT = {
         id: "slug-safety-kit",
         kind: "kit",
         title: "Slug Safety Kit",
-        image: "assets/images/shop/slug-safety-kit.jpg",
+        image: "assets/images/shop/slug-safety-kit-lite.jpg",
         imageAlt: "Slug Safety Kit sign samples",
         shortDescription:
           "Mini crossing-sign craft kit for neighborhood interventions and decorative public works.",
