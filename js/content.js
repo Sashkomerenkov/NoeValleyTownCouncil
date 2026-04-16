@@ -389,6 +389,28 @@ window.NVTC_CONTENT = {
           "Recommended for entry halls and other spaces where value systems should remain unmistakable."
       },
       {
+        id: "poster-town-square-24th-street-energy",
+        kind: "poster",
+        title: "Town Square 24th Street Energy",
+        image: "assets/images/shop/town-square-24th-street-energy.jpg",
+        imageAlt: "Noe Valley Town Square 24th Street Energy poster",
+        shortDescription:
+          "An ornate field bulletin celebrating patio diplomacy, ambient string lights, and strategic lingering.",
+        detail:
+          "Issued for dining nooks and living rooms where neighborhood atmosphere is treated as civic infrastructure."
+      },
+      {
+        id: "poster-24th-street-energy-facade",
+        kind: "poster",
+        title: "24th Street Energy",
+        image: "assets/images/shop/24th-street-energy-facade.jpg",
+        imageAlt: "Noe Valley 24th Street Energy Victorian facade poster",
+        shortDescription:
+          "A streetscape portrait honoring the noble art of walking past architecture with mild emotional investment.",
+        detail:
+          "Approved for hallways, offices, and other interior zones requiring immediate hyperlocal confidence."
+      },
+      {
         id: "slug-safety-kit",
         kind: "kit",
         title: "Slug Safety Kit",
