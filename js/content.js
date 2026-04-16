@@ -161,6 +161,23 @@ window.NVTC_CONTENT = {
   ],
   press: [
     {
+      id: "press-ordinance-260361-support",
+      tag: "Council News",
+      date: "2026-04-16",
+      title: "Noe Valley Town Council News — The Noe Valley Town Council formally supports Ordinance 260361",
+      excerpt:
+        "The Noe Valley Town Council formally supports Ordinance 260361, a measure introduced by Myrna Melgar and currently under consideration by the San Francisco Board of Supervisors.",
+      body: [
+        "Noe Valley Town Council News — The Noe Valley Town Council formally supports Ordinance 260361, a measure introduced by Myrna Melgar and currently under consideration by the San Francisco Board of Supervisors, which would prohibit smoking and vaping on bar patios and in certain semi-enclosed bar spaces across the city. The ordinance seeks to close a long-standing gap in San Francisco's smoke-free laws and extend consistent protections to workers, patrons, and the public.",
+        "In Noe Valley, where neighborhood life centers around walkable corridors like 24th Street, bar patios are often directly adjacent to sidewalks, grocery stores, and family-oriented spaces. As a result, secondhand smoke does not remain confined to private settings and instead impacts residents, workers, and visitors simply moving through the neighborhood. The Town Council recognizes that maintaining clean, breathable public space is essential to preserving Noe Valley's accessibility and quality of life.",
+        "Public health authorities, including the Centers for Disease Control and Prevention, have determined that there is no safe level of exposure to secondhand smoke. Even short-term exposure can trigger asthma symptoms and other adverse health effects, particularly for vulnerable populations. The Town Council views this ordinance as a necessary step to ensure that all individuals—including those with respiratory conditions, children, and older adults—can safely access neighborhood spaces without avoidable health risks.",
+        "The Council also emphasizes the importance of worker protections. Bar staff assigned to patio areas may face prolonged exposure to secondhand smoke as part of their daily responsibilities, without the ability to opt out. Aligning bar patio regulations with existing smoke-free protections for restaurants and other public environments creates a more equitable and consistent standard across the city.",
+        "Concerns about economic impact are understandable but are not supported by long-term data. Jurisdictions that have adopted similar smoke-free policies have not experienced declines in bar or restaurant revenue, and in many cases have seen increased patronage due to improved comfort and accessibility. More than 100 cities and counties in California—including Oakland and San Jose—have already enacted comparable measures, positioning San Francisco to rejoin regional leadership in public health.",
+        "The Town Council further recognizes the cultural importance of bar patios as community gathering spaces, including within LGBTQ+ communities. Supporting this ordinance is not about limiting social life, but about ensuring these spaces remain inclusive and welcoming to a broader range of people, including those who may otherwise be excluded due to health concerns.",
+        "The Noe Valley Town Council encourages residents to stay informed and participate in the public process as the ordinance moves through committee and toward a full Board vote. The Council will continue to advocate for policies that promote public health, accessibility, and the long-term vitality of Noe Valley's shared spaces."
+      ]
+    },
+    {
       id: "press-slug-safety-zone-kit-elizabeth-dewy-zone",
       tag: "Press Release",
       date: "2026-04-14",
